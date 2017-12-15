@@ -26,6 +26,5 @@ public class LoginServlet extends HttpServlet {
         writer.println("<p>Hallo Welt</>");
         writer.println("</body>");
         writer.println("</html>");
-
     }
 }
