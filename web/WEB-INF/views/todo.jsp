@@ -18,7 +18,7 @@
 <p>Deine Todos sind:</p>
 
 <ol>
-    <c:forEach var="todo" items="todos">
+    <c:forEach var="todo" items="${todos}">
         <li>
                 ${todo.name}
         </li>
