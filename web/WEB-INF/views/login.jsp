@@ -15,10 +15,11 @@
 <p>${errorMessage}</p>
 
 <form action="/login.do" method="post">
-    Name: <input type="text" name="name"> Passwort: <input type="password" name="password"/>
+    Name: <input type="text" name="name">
+    Passwort: <input type="password" name="password"/>
     <input type="submit" value="Anmelden">
 </form>
 
-</p></body>
+</body>
 </html>
 </input>
