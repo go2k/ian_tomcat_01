@@ -25,5 +25,9 @@
     </c:forEach>
 </ol>
 
+<form method="get" action="/addtodo.do">
+    <input type="submit" name="addTodo" value="Neues Todo hinzufügen">
+</form>
+
 </body>
 </html>

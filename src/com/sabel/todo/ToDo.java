@@ -1,10 +1,14 @@
 package com.sabel.todo;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class ToDo {
 
     private String name;
+    private static List<ToDo> todos = new ArrayList<>();
+
 
     public ToDo(String name) {
         this.name = name;
@@ -38,5 +42,9 @@ public class ToDo {
     @Override
     public String toString() {
         return name;
+    }
+
+    public void add(ToDo toDo) {
+        todos.add(toDo);
     }
 }
