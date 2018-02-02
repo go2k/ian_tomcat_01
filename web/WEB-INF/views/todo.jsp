@@ -21,14 +21,17 @@
     </style>
     <title>Willkommensseite</title>
 </head>
+
 <body>
+
 <nav class="navbar navbar-default">
     <a href="http://localhost:8080/todo.do">GBS</a>
     <ul class="nav navbar-nav">
         <li class="active">Home</li>
-        <li><a href="http://localhost:8080/todo.do">ToDos</a></li>
+        <li><a href="http://localhost:8080/todo.do"></a>ToDos</li>
     </ul>
 </nav>
+
 <div class="container">
 
     <p>Hallo ${name}! Herzlich willkommen</p>
